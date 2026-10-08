@@ -1,14 +1,13 @@
 Pod::Spec.new do |s|
 s.name         = "AvoidCrash"
 s.platform     = :ios
-s.version      = "2.5.2"
+s.version      = "1.0.0"
 s.ios.deployment_target = '12.0'
 s.summary      = "This framework can avoid Foundation framework potential crash danger"
 s.homepage     = "https://github.com/chenfanfang/AvoidCrash"
 s.license      = "MIT"
 s.author             = { "陈蕃坊" => "493336001@qq.com" }
-s.social_media_url   = "http://www.jianshu.com/users/80fadb71940d/latest_articles"
-s.source       = { :git => "https://github.com/firestory/AvoidCrash.git", :branch => "master" }
+s.source       = { :git => "https://github.com/firestory/AvoidCrash.git", :tag => s.version }
 
 s.source_files  = 'AvoidCrash/**/*.{h,m}'
 s.resource_bundles = {'AvoidCrash' => ['AvoidCrash/PrivacyInfo.xcprivacy']}
